@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;900&display=swap');
 
 * {
     margin: 0;
@@ -113,6 +113,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.img-btn:hover{
+    box-shadow: 0px 0px 25px white;
 }
 
 .img-btn i {
@@ -200,4 +205,87 @@
     height: 100%;
     width: 100%;
     margin: 0 10px 0 10px;
+}
+
+/* donation style */
+.donation {
+    padding: 0 8% 8% 8%;
+}
+
+.donation h2{
+    font-size: 40px;
+    color: #121212;
+    text-align: center;
+    padding: 0 200px 0 200px;
+    line-height: 55px;
+
+}
+
+.donation > p{
+    font-size: 18px;
+    color: #707070;
+    padding: 0 250px 0 250px;
+    text-align: center;
+    margin: 15px 0 50px 0;
+}
+
+.donate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-card {
+    width: 33%;
+    border: 1px solid #c9c9c9;
+    border-radius: 13px;
+    margin: 0 10px 0 10px;
+}
+
+.donate-card-txt{
+    padding: 20px 20px 40px 20px;
+}
+
+.donate-card h4 {
+    font-size: 20px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.donate-card p{
+    font-size: 18px;
+    color: #707070;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+}
+
+.donate-card img {
+    width: 100%;
+}
+
+.donate-card-txt a {
+    font-size: 22px;
+    font-weight: 600;
+    color: #EF233C;
+    text-underline-offset: 2px;
+}
+
+/* footer style */
+footer {
+    background: #0B0D17;
+    padding: 40px 0 40px 0;
+}
+
+
+footer h3 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #EF233C;
+    font-weight: 200;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
 }
