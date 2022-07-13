@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* top banner style */
+
+.top-banner {
+    background: url(images/top-banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 12.5% 10% 12.5% 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.top-banner::before {
+    content: '';
+    background: linear-gradient(90deg, black, transparent);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .85;
+    z-index: -1;
+}
+
+.top-banner-txt {
+    width: 50%;
+}
+
+.top-banner h1{
+    color: white;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.top-banner p {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 100px 0 0;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background: #EF233C;
+    padding: 12px 20px 12px 20px;
+    border-radius: 5px;
+}
+
+
+/* description style */
+
+.description {
+    padding: 8% 10% 8% 10%;
+}
+
+.description h2 {
+    font-size: 40px;
+    color: #121212;
+    margin: 0 0 20px 0;
+}
+
+.description p {
+    font-size: 18px;
+    color: #707070;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+}
+.discrioption-text :nth-child(3) {
+    margin-bottom: 30px;
+}
+.half-width {
+    width: 40%;
+}
+
+.description-up {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 100px 0;
+}
+
+.discrioption-text {
+    padding: 4% 0 0 0;
+}
+
+.description img {
+    width: 100%;
+}
+
+.description-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-btn {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgb(239, 35, 60, .6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-btn i {
+    font-size: 25px;
+    background: white;
+    color: #EF233C;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-down {
+    display: flex;
+    justify-content: space-between;
+}
