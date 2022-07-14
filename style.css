@@ -13,7 +13,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 12.5% 10% 12.5% 10%;
+    padding: 12.5% 15% 12.5% 15%;
     position: relative;
     z-index: 1;
 }
@@ -61,7 +61,7 @@
 /* description style */
 
 .description {
-    padding: 8% 10% 8% 10%;
+    padding: 8% 15% 8% 15%;
 }
 
 .description h2 {
@@ -80,7 +80,7 @@
     margin-bottom: 30px;
 }
 .half-width {
-    width: 40%;
+    width: 45%;
 }
 
 .description-up {
